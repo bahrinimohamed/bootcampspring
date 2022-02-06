@@ -12,7 +12,7 @@ public class HomeController {
 	 }
 	@RequestMapping("/affichage")//ce que je tape dans l'url
 	public String affiche()
-	{
+	{System.out.println("methode info");
 		return "home/affichage";//le nom de la vue sous template/home
 	}
 }
